@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxrfl1aua3w6x"]
+
+[ext_resource type="Script" uid="uid://dcdu1dwumsqgk" path="res://grid_cell.gd" id="1_024bi"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hjn54"]
+bg_color = Color(0.720467, 0.720468, 0.720467, 0.141176)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+
+[node name="PanelContainer" type="PanelContainer"]
+custom_minimum_size = Vector2(32, 32)
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_hjn54")
+script = ExtResource("1_024bi")
